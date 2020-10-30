@@ -1,0 +1,47 @@
+#root{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h3{
+    margin-left: 5%;
+}
+
+.divStyle{
+    width: 50%;
+    min-height: 200px;
+    background-color: rgba(3, 140, 252, 0.5);
+}
+
+ul{
+    background: white;
+    width: 90%;
+    margin-left: 5%;
+    padding: 0;
+}
+
+li{
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid grey;
+}
+
+.inputToDo{
+    margin-left: 5%;
+    margin-right: 10px;
+}
+
+.li_button{
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+}
+.done{
+    background: green;
+}
+.delete{
+    background: red;
+}
